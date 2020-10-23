@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Niranjan's project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>PERCY JACKSON & THE OLYMPIANS</h1>
+  <p>The Lightning Thief</p> 
+ 
+</div> 
+<div class="container">
+  
+    <div class="row text-center">
+      <h1>About</h1>
+      <p id="about">Percy Jackson & the Olympians is based on a 12 year old kid who discovers that he is a demigod (half god-half human). He goes to a Camp for safety from monsters like the Minotaur who try to kill demigods. There, he makes new friends, dicovers his friend is a saytr (half goat- half human), and dicovers more. He also finds out that Zeus's master lightning bolt is stolen and he is the prime suspect. He has 2 options, either be killed by an army of monsters sent by the gods or find the lightning bolt and return it to Zeus before the summer solistice (the deadline). It would be hard work</p>
+    </div>
+<div>
+    Word Count Is: <span></span>
+</div>
+    <div class="row text-center">
+      <h1>Characters</h1>
+      <p>Ares</p>
+      <p>Athena, Goddess of Wisdom and War</p>
+      <p>Annabeth, Daughter of Athena and friend of Percy</p>
+      <p>Argus, Security Gaurd for Camp Half-Blood</p>
+      <p>Clarisse La Rue, Daughter of Ares</p>
+      <p>Chimaera, Offspring of Echnida</p>
+      <p>Cerebrus, Pet of Hades (3 headed giant dog)</p>
+      <p>Chiron Brunner, centaur</p>
+      <p>Charon, Spirit of Territories and Boundaries (ferryman)</p>
+      <p>Dionysus, Head of Camp Half-Blood</p>
+      <p>Echidna, Mother of All Monsters</p>
+      <p>The Furies, Serve Hades, they punish crimes of wicked</p>
+      <p>The Fates, The divine personifications of destiny</p>
+      <p>Grover Underwood, saytr and friend of Percy</p>
+      <p>Gabe Ugliano, Percy's New and Bad father</p>
+      <p>Hades, God of the Underworld and God of Fire</p>
+      <p>Hellhound, The evil dog who tried to kill Percy</p>
+      <p>Hermes, Messenger of Gods, God of theives, God of messengers</p>
+      <p>Kronos, Voice in Percy's mind</p>
+      <p>Luke Castellan, Son of Hermes</p>
+      <p>Minotaur, A giant half bull, half man monster</p>
+      <p>Medusa, A monster who has snakes for hair and can turn people to stone</p>
+      <p>Nancy Bobofit, The girl who bullies Percy and Grover at school</p>
+      <p>Procustes, Son of Poseidon and called "The Stretcher</p>
+      <p>Pit Scorpion,The scorpian commanded by Luke summoned to kill Percy</p>
+      <p>Percy Jackson, Son of Poseidon</p>
+      <p>Poseidon, God of the Sea</p>
+      <p>Zeus, God of the heavens and the sky, God of lightning</p>
+    </div>
+    <div class="row text-center">
+      <h1>Trailer</h1>        
+      <p></p>
+      <p></p>
+    <div class="row text-center">
+      <h1>Sources<h1>
+       <p>rickriordan.com</p>
+       <p>riordan.fandom.com</p>
+       <p>goodreads.com</p>
+       <p>lightningtheifmusical.com</p>
+       <p>bookpage.com</p>
+      <h1>Quotaions from Book Reviews<h1>
+       <h3>"PERCY IS A ROCK STAR"<h3>
+       <p>-NY Daily News</p>
+       <h3>"WORTHY OF THE GODS"<h3>
+       <p>-Time Out New York</p>
+       <h3>"ACTION-PACKED, MYTHICAL ADVENTURE"<h3>
+       <p>-NY Daily News<p>
+    </div>
+</div>
+
+<script>
+function getWordCounts(nodeList) {
+    var wordCount = 0;
+    for ( var i = 0; i < nodeList.length; i++ ) {
+        wordCount += nodeList[i].textContent.trim().split(' ').length;
+    }
+    return wordCount;
+}
+
+document.querySelector('span').textContent = getWordCounts(document.querySelectorAll('#about'));
+</script>
+</body>
+</html>
