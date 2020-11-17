@@ -1,5 +1,8 @@
 body {
   background-color: lightblue;
+  background-image: url("WebsiteImage.PNG");
+  background-repeat: no-repeat;
+  background-position: center right;
 }
 .jumbotron#lightning {
 background-image: url(lightninggif.gif);
