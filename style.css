@@ -4,6 +4,12 @@ body {
   background-repeat: no-repeat;
   background-position: center right;
 }
+body {
+  background-color: lightblue;
+  background-image: url("ZeusMasterBolt.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
 .jumbotron#lightning {
 background-image: url(lightninggif.gif);
 background-size: cover;
