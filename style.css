@@ -1,14 +1,10 @@
-head {
-  background-color: lightblue;
-  background-image: url("WebsiteImage_Revised.PNG");
-  background-repeat: no-repeat;
-  background-position: center right;
-}
+
 body {
   background-color: lightblue;
-  background-image: url("ZeusMasterBolt.png");
-  background-repeat: no-repeat;
-  background-position: center left;
+  background-image: url("ZeusMasterBolt.png"),url("WebsiteImage_Revised.PNG");
+  background-repeat: no-repeat,no-repeat;
+  background-position: center left,center right;
+  
 }
 .jumbotron#lightning {
 background-image: url(lightninggif.gif);
